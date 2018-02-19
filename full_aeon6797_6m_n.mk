@@ -40,7 +40,7 @@ PRODUCT_BRAND := Planet
 ifeq ($(TARGET_BUILD_VARIANT), eng)
 KERNEL_DEFCONFIG ?= aeon6797_6m_n_debug_defconfig
 else
-KERNEL_DEFCONFIG ?= aeon6797_6m_n_defconfig
+KERNEL_DEFCONFIG ?= aeon6797_6m_n_hybris_defconfig
 endif
 PRELOADER_TARGET_PRODUCT ?= aeon6797_6m_n
 LK_PROJECT ?= aeon6797_6m_n
